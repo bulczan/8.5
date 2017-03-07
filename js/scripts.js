@@ -2,12 +2,9 @@ var a = prompt('przypisz a'),
 	b = 0,
 	value = (a*a) + (2 * a * b) - (b*b);
 
-
 	alert('Value ' + 0)
 
-
 console.log('wynik to: ' + value);
-
 
 if (value > 0) {
 	console.log('Wynik dodatni')
@@ -16,6 +13,6 @@ if (value > 0) {
 } 
 
 switch (value) {
-	case 'value = 0':
+	case 0:
 	alert('value wynosi 0')
 }
