@@ -2,8 +2,6 @@ var a = prompt('przypisz a'),
 	b = 0,
 	value = (a*a) + (2 * a * b) - (b*b);
 
-	alert('Value ' + 0)
-
 console.log('wynik to: ' + value);
 
 if (value > 0) {
